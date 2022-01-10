@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "tchem",
+  "version": "${version}",
+  "name": "TChem-Fabric",
+  "description": "A mod about tech and chemistry",
+  "authors": [
+    "TarantulaGamingMods",
+    "Discord Cat"
+  ],
+  "contact": {
+    "website": "https://github.com/ManWithMustash/TaraChemistry-Fabric",
+    "repo": "https://github.com/ManWithMustash/TaraChemistry-Fabric"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/tchem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.tarantulagamingmods.tchem.TChem"
+    ],
+    "main": [
+      "com.tarantulagamingmods.tchem.TChem"
+    ]
+  },
+  "mixins": [
+    "tchem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
