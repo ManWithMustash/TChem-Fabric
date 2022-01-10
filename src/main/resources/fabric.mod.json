@@ -17,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.tarantulagamingmods.tchem.TChem"
+      "com.tarantulagamingmods.tchem.TChemClient"
     ],
     "main": [
       "com.tarantulagamingmods.tchem.TChem"
