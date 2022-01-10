@@ -1,4 +1,4 @@
-package com.tarantulagamingmods.tchem;
+package com.tarantulagamingmods.tchem.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
